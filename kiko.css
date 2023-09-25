@@ -7,7 +7,6 @@
 .header-container {
     background: whitesmoke;
     display: flex;
-
     position: fixed;
     top: 0;
     width: 100%;
@@ -20,10 +19,12 @@
     cursor: pointer;
 }
 
+/* move the bitch */
 .header-container img:hover {
     transform: scale(1.2);
 }
 
+/* move the bitch */
 .header-container img:active {
     transform: scale(1.1);
 }
@@ -136,8 +137,6 @@
     padding: 20px
 }
 
-
-/* Style the footer */
 footer {
     background-color: #333;
     color: #fff;
